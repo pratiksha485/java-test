@@ -1,0 +1,18 @@
+CREATE DATABASE resource_allocation;
+USE resource_allocation;
+
+CREATE TABLE resource (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    skills TEXT,
+    experience INT
+);
+
+INSERT INTO resource (name, skills, experience) VALUES 
+
+('Dennis', 'Java, Spring, JMS, MySQL, Angular, React, Web services, Nodejs', 4),
+('Thompson', 'Java, Oracle, React, Angular, Javascript, REST API', 7),
+('Kim', 'Java, JSP, Spring, Oracle, MySQL, PostgreSQL, Mongo, REST API, Web services, Docker, Redis', 12),
+('Aisha', 'Angular, Javascript, Nodejs, REST API, Web services, Docker, SQL server, PostgreSQL', 9),
+('Maya', 'Spring, Spring Boot, Hibernate, MySQL, PostgreSQL, Nodejs, Python', 5),
+('Kumar', 'Java, Redis, MySQL, Javascript', 3);
